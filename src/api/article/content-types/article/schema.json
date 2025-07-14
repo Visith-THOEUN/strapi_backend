@@ -50,7 +50,7 @@
     "tags": {
       "type": "relation",
       "relation": "manyToMany",
-      "target": "api::ai.ai",
+      "target": "api::tag.tag",
       "mappedBy": "articles"
     }
   }

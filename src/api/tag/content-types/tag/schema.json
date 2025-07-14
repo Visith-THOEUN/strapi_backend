@@ -1,9 +1,9 @@
 {
   "kind": "collectionType",
-  "collectionName": "ais",
+  "collectionName": "tags",
   "info": {
-    "singularName": "ai",
-    "pluralName": "ais",
+    "singularName": "tag",
+    "pluralName": "tags",
     "displayName": "Tag"
   },
   "options": {
@@ -12,7 +12,9 @@
   "pluginOptions": {},
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "required": true,
+      "unique": true
     },
     "articles": {
       "type": "relation",
